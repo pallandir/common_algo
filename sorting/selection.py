@@ -1,4 +1,4 @@
-def insertion_sort(array):
+def selection_sort(array):
     array_size = len(array)
 
     for array_index in range(array_size):
@@ -18,5 +18,5 @@ def insertion_sort(array):
 if __name__ == "__main__":
     my_list = [3, 2, 6, 5, 7, 1, 8]
     print(f"before : {my_list}")
-    insertion_sort(my_list)
+    selection_sort(my_list)
     print(f"\nafter : {my_list}")
